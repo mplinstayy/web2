@@ -48,11 +48,15 @@ h1.main, h1.golub, h1.krasn, h1.zelen, h1.oranzhev {
 	text-align: left;
 	font-size: 14pt;
 }
-h1.main{color: navy;}
-h1.golub{color: blue;}
-h1.krasn{color: red;}
-h1.zelen{color: green;}
-h1.oranzhev{color: orange;}
+h1.main,h1.golub,h1.krasn,h1.zelen,h1.oranzhev{
+color: navy;font-family: Verdana;text-align: left;font-size: 14pt;
+}
+h1.main{color: navy}
+h1.golub{color: blue}
+h1.krasn{color: red}
+h1.zelen{color: green}
+h1.oranzhev{color: orange}
+p.main_1{color: navy;text-align: center;font-size: 12pt;font-family: Arial;}
 
 p.main_text, p.blue_text, p.red_text, p.green_text, p.orange_text {
 	font-size: 12pt;
@@ -62,3 +66,4 @@ p.blue_text{color: blue; text-align: left; font-family: Times New Roman; font-si
 p.red_text{color: red; text-align: right; font-family: Arial;}
 p.green_text{color: green; text-align: justify; font-family: Arial;}
 p.orange_text{color: orange; text-align: center; font-family: Verdana;}
+

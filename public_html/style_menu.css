@@ -5,3 +5,7 @@
 body{
 	background-color: #CCFFFF;
 }
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
